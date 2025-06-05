@@ -41,9 +41,3 @@ ALTER TABLE parameters ADD Exposure DOUBLE GENERATED ALWAYS AS (mAm/POWER(SFD, 2
 CREATE INDEX idx_relative_day ON relative_date(Relative_Day);
 CREATE INDEX idx_water ON inspections(Water);
 CREATE INDEX idx_pn ON parts(PN);
-
-
-
-
-
-    
