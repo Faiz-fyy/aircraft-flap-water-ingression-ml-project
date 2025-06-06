@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Machine Learning](https://img.shields.io/badge/ML-Classification-orange) ![Industry](https://img.shields.io/badge/Industry-Aviation-green) ![Database](https://img.shields.io/badge/Database-MySQL-yellow) ![Visualization](https://img.shields.io/badge/Visualization-Tableau-lightblue)
 
-**Advanced predictive analytics for aircraft trailing edge flap water ingression detection using multi-modal NDT data**
+**Predictive analytics for aircraft trailing edge flap water ingression detection using multi-modal NDT data**
 
 *NDT Engineering to Data Science career transition project - An introductory to time series analysis and database architecture*
 
@@ -28,9 +28,9 @@ Water ingression in aircraft composite structures leads to structural degradatio
 ### Data Pipeline Evolution
 Building on previous project (Aircraft Hub Inspection Predictive Modeling project) foundation with significant **Kaizen improvements**:
 
-1. **Enhanced Data Quality**: 74% missing value recovery (vs 26% in previous project)
+1. **Data Quality**: 74% missing value recovery (vs 26% in previous project)
 2. **Improved Class Balance**: 35% positive class (vs 14% in previous project) 
-3. **Advanced Database Design**: 3NF MySQL architecture for scalability
+3. **Database Design**: 3NF MySQL architecture for scalability
 4. **Sophisticated Visualization**: 15 chart types across 8 Tableau dashboards
 5. **Physics Integration**: NDT exposure calculations using inverse square law
 
@@ -45,7 +45,7 @@ Building on previous project (Aircraft Hub Inspection Predictive Modeling projec
 
 ## Key Technical Innovations
 
-### Advanced Feature Engineering
+### Feature Engineering
 1. **Physics-Based Metrics**: Exposure = mAm/(SFD²) implementing inverse square law
 2. **Temporal Features**: Quarterly patterns, rain season classifications  
 3. **Component Lifecycle**: Age-based degradation modeling
@@ -60,7 +60,7 @@ relative_date (Date_ID, Relative_Day, Relative_Week, Relative_Month, Relative_Qu
 inspections (Inspection_ID, Date_ID, SN_ID, Parameters_ID, Water, Disbond)
 ```
 
-### Advanced Analytics Framework
+### Analytics Framework
 - **SHAP Interpretability**: Feature importance with decision path analysis
 - **Threshold Optimization**: Precision-recall trade-off for safety-critical applications  
 - **Risk Stratification**: Component-level risk scoring with maintenance recommendations
@@ -108,7 +108,7 @@ inspections (Inspection_ID, Date_ID, SN_ID, Parameters_ID, Water, Disbond)
 
 ## Technologies & Skills
 
-**Advanced Analytics Stack:**
+**Analytics Stack:**
 - **ML Framework**: Scikit-learn, SMOTE, Threshold Optimization
 - **Database**: MySQL with 3NF normalization  
 - **Visualization**: Tableau with 14+ advanced chart types
@@ -141,13 +141,13 @@ inspections (Inspection_ID, Date_ID, SN_ID, Parameters_ID, Water, Disbond)
 
 ## Project Evolution from Previous Work
 
-**Technical Advancements:**
+**Technical Improvement:**
 - **Database Architecture**: From flat files to normalized 3NF design
 - **Visualization Mastery**: From Power BI basics to advanced Tableau techniques  
 - **Statistical Rigor**: Enhanced correlation analysis and significance testing
 - **Model Optimization**: Threshold tuning and precision-recall trade-off analysis
 
-**Business Focus Enhancement:**
+**Business Impact:**
 - **Risk Framework**: Structured component prioritization system
 - **Operational Integration**: Maintenance schedule recommendations
 - **Cost-Benefit Analysis**: Quantified business impact assessment
@@ -180,4 +180,4 @@ inspections (Inspection_ID, Date_ID, SN_ID, Parameters_ID, Water, Disbond)
 
 ---
 
-**About:** This project represents significant advancement in applying data science to aviation safety challenges. The integration of advanced visualization, database design, and domain expertise creates a production-ready framework for predictive maintenance in safety-critical industries.
+**About:** This project represents improvement in applying data science to aviation safety challenges. The integration of advanced visualization, database design, and domain expertise creates a production-ready framework for predictive maintenance in safety-critical industries.
