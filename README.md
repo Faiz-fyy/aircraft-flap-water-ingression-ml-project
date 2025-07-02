@@ -28,7 +28,7 @@ Water ingression in aircraft composite structures leads to structural degradatio
 ### Data Pipeline Evolution
 Building on previous project (Aircraft Hub Inspection Predictive Modeling project) foundation with significant **Kaizen improvements**:
 
-1. **Data Quality**: 74% missing value recovery (vs 26% in previous project)
+1. **Data Quality**: 74% missing value recovery
 2. **Improved Class Balance**: 35% positive class (vs 14% in previous project) 
 3. **Database Design**: 3NF MySQL architecture for scalability
 4. **Sophisticated Visualization**: 15 chart types across 8 Tableau dashboards
